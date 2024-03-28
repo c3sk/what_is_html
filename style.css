@@ -8,7 +8,8 @@ h2,
 h3,
 h4,
 p,
-li {
+li,
+a {
   font-family: sans-serif;
   color: #444;
 }
@@ -92,7 +93,7 @@ ol {
   background-color: #f7f7f7;
   padding: 20px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 .post-header {
@@ -115,4 +116,27 @@ aside {
 .container {
   width: 700px;
   margin: 0 auto;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+nav a:link {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
